@@ -1,5 +1,5 @@
-import linkedInImg from '../assets/linkedIn.svg'
-import githubImg from '../assets/github.svg'
+import linkedInImg from '../../assets/linkedIn.svg'
+import githubImg from '../../assets/github.svg'
 import SvgLink from "./SvgLink.tsx";
 
 export default function Header() {
