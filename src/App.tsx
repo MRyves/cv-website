@@ -1,11 +1,15 @@
 import './App.css'
+import AppLayout from "./components/AppLayout.tsx";
+import Header from "./components/Header.tsx";
+
 
 function App() {
 
   return (
-    <>
-      Hello world
-    </>
+    <AppLayout>
+        <Header />
+        Hello world
+    </AppLayout>
   )
 }
 
