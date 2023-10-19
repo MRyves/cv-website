@@ -1,7 +1,5 @@
-import {PropsWithChildren} from "react";
+import { PropsWithChildren } from "react";
 
 export default function AppLayout(props: PropsWithChildren) {
-    return <div className="max-w-7xl px-3 mx-auto">
-        {props.children}
-    </div>;
+  return <div className="mx-auto max-w-7xl px-3">{props.children}</div>;
 }

@@ -1,5 +1,3 @@
-export default function Intro(){
-    return <section id="intro">
-
-    </section>
+export default function Intro() {
+  return <section id="intro"></section>;
 }
