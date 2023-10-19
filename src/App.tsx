@@ -5,6 +5,7 @@ import Intro from "./components/sections/Intro.tsx";
 import Template from "./components/sections/Template.tsx";
 import AboutMe from "./components/sections/AboutMe.tsx";
 import Skills from "./components/sections/Skills.tsx";
+import Work from "./components/sections/Work.tsx";
 
 function App() {
   return (
@@ -13,9 +14,7 @@ function App() {
       <Intro />
       <AboutMe />
       <Skills />
-      <Template title="WORK EXPERIENCE">
-        <div className="h-[100px] bg-red-500">This is only a test</div>
-      </Template>
+      <Work />
       <Template title="PROJECTS">
         <div className="h-[100px] bg-red-500">This is only a test</div>
       </Template>
