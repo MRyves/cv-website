@@ -5,7 +5,6 @@ import SvgLink from "./SvgLink.tsx";
 export default function Header() {
   return (
     <div className="flex items-center justify-end gap-2 py-7">
-      <div>This is the header</div>
       <div className="flex-spacer"></div>
       <SvgLink
         ariaLabel="linkedIn link"

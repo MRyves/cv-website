@@ -1,12 +1,16 @@
-import { PropsWithChildren } from "react";
 import Template from "./Template.tsx";
-import Tag from "../ui/Tag.tsx";
+import WorkItem from "../ui/WorkItem.tsx";
+import WorkItemList from "../ui/WorkItemList.tsx";
 
 export default function Work() {
   return (
     <Template title="WORK EXPERIENCE">
-      <WorkItem title="Full Stack Dev @ SIX, Zurich">
-        <span className="">
+      <WorkItemList>
+        <WorkItem
+          title="Full Stack Dev @ SIX, Zurich"
+          subtitle={"09.2021 - 08.2023"}
+          tags={["Vue.js", "Quarkus", "Redux", "API", "Oracle"]}
+        >
           The main focus of the project was the replacement of the legacy CMS
           system of SIX. First we started with the Frontend (mgmt decision) and
           quickly realized that the legacy backend does not suit the modern
@@ -17,29 +21,8 @@ export default function Work() {
           in the new backend component. Sometimes I had to manipulate the DB
           schema for maintenance work. I also educated apprentices of SIX in
           JavaScript and React during this time.
-        </span>
-      </WorkItem>
+        </WorkItem>
+      </WorkItemList>
     </Template>
-  );
-}
-
-interface WorkItemProps {
-  title: string;
-  tags?: string[];
-}
-
-function WorkItem(props: PropsWithChildren<WorkItemProps>) {
-  return (
-    <div className="flex flex-col gap-2.5">
-      <div className="font-title text-xl">{props.title}</div>
-      <div className="pl-1 text-left">{props.children}</div>
-      <div className="flex flex-row flex-wrap gap-2">
-        <Tag tag="Vue.js" />
-        <Tag tag="Javascript" />
-        <Tag tag="Quarkus" />
-        <Tag tag="Rest" />
-        <Tag tag="Oracle 12" />
-      </div>
-    </div>
   );
 }
