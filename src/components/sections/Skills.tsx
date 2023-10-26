@@ -2,6 +2,7 @@ import Template from "./Template.tsx";
 import SvgLink from "../ui/SvgLink.tsx";
 import reactImg from "../../assets/react.svg";
 import angularImg from "../../assets/angular.svg";
+import rxjsImg from "../../assets/rxjs.svg";
 import apiImg from "../../assets/api.svg";
 import gitImg from "../../assets/git.svg";
 import javaImg from "../../assets/java.svg";
@@ -13,6 +14,8 @@ import tailwindImg from "../../assets/tailwind.svg";
 import typescriptImg from "../../assets/typescript.svg";
 import vueImg from "../../assets/vue.svg";
 import reduxImg from "../../assets/redux.svg";
+import databaseImg from "../../assets/database.svg";
+import scrumImg from "../../assets/scrum.svg";
 
 export default function Skills() {
   return (
@@ -31,7 +34,7 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="react skill button"
               svgData={reactImg}
               onclick={() => alert("test")}
               caption="React"
@@ -40,7 +43,7 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="vuejs skill button"
               svgData={vueImg}
               onclick={() => alert("test")}
               caption="Vue.js"
@@ -49,7 +52,16 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="rxjs skill button"
+              svgData={rxjsImg}
+              onclick={() => alert("test")}
+              caption="RxJS"
+            />
+          </div>
+          <div className="text-center">
+            <SvgLink
+              className="mx-auto"
+              ariaLabel="redux skill button"
               svgData={reduxImg}
               onclick={() => alert("test")}
               caption="Redux"
@@ -103,7 +115,7 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="Quarkus skill button"
               svgData={quarkusImg}
               onclick={() => alert("test")}
               caption="Quarkus"
@@ -112,7 +124,7 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="API skill button"
               svgData={apiImg}
               onclick={() => alert("test")}
               caption="Rest"
@@ -121,10 +133,28 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="Database skill button"
+              svgData={databaseImg}
+              onclick={() => alert("test")}
+              caption="Oracle SQL"
+            />
+          </div>
+          <div className="text-center">
+            <SvgLink
+              className="mx-auto"
+              ariaLabel="Git skill button"
               svgData={gitImg}
               onclick={() => alert("test")}
               caption="GIT"
+            />
+          </div>
+          <div className="text-center">
+            <SvgLink
+              className="mx-auto"
+              ariaLabel="scrum skill button"
+              svgData={scrumImg}
+              onclick={() => alert("test")}
+              caption="SCRUM"
             />
           </div>
           <div className="text-center">

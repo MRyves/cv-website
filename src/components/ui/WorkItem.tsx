@@ -22,7 +22,7 @@ export default function WorkItem(props: PropsWithChildren<WorkItemProps>) {
   return (
     <div className="flex flex-col gap-2.5">
       <div className={titleElementClassName} onClick={handleClick}>
-        <div className="font-title text-xl">{props.title}</div>
+        <div className="text-left font-title text-xl">{props.title}</div>
         <div className="font-subtitle text-sm">{props.subtitle}</div>
       </div>
 
