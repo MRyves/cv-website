@@ -2,7 +2,8 @@ import { PropsWithChildren } from "react";
 import Tag from "./Tag.tsx";
 
 interface WorkItemProps {
-  title: string;
+  title?: string;
+  titleHtml?: string;
   subtitle: string;
   tags?: string[];
   url?: string;
@@ -22,7 +23,14 @@ export default function WorkItem(props: PropsWithChildren<WorkItemProps>) {
   return (
     <div className="flex flex-col gap-2.5">
       <div className={titleElementClassName} onClick={handleClick}>
-        <div className="text-left font-title text-xl">{props.title}</div>
+        {props.titleHtml ? (
+          <div
+            className="text-left font-title text-xl"
+            dangerouslySetInnerHTML={{ __html: props.titleHtml }}
+          ></div>
+        ) : (
+          <div className="text-left font-title text-xl">{props.title}</div>
+        )}
         <div className="font-subtitle text-sm">{props.subtitle}</div>
       </div>
 
