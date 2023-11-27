@@ -28,16 +28,18 @@ export default function Work() {
           subtitle={"09.2021 - 08.2023"}
           tags={["Vue.js", "Quarkus", "Redux", "API", "Oracle"]}
         >
-          In my second role at SIX, I was part of a project aimed at replacing
-          the legacy CMS system. Initially focusing on the frontend, we
-          encountered compatibility issues with the legacy backend, which used
-          an XML-based API. To bridge this gap, we developed an intermediate
-          backend component utilizing Quarkus. My primary role was in frontend
-          development, though I also contributed occasionally to the new backend
-          component and performed database schema manipulations for maintenance
-          purposes. During this period, I also had the opportunity to mentor SIX
-          apprentices in JavaScript and React, sharing my knowledge and
-          fostering new talent in the company.
+          In my second engagement at SIX, I played a key role in a comprehensive
+          project to overhaul the legacy CMS system. As a full-stack developer,
+          I addressed challenges on both ends of the spectrum. Initially, my
+          focus was on the frontend, where we navigated compatibility issues
+          with the legacy backend's XML-based API. To resolve this, our team
+          crafted an intermediate backend component using Quarkus, in which I
+          actively participated. My contributions spanned from dynamic frontend
+          development using modern practices to significant involvement in the
+          backend, including developing new components and database schema
+          modifications. This period also saw me taking on a mentorship role,
+          guiding SIX apprentices in mastering JavaScript and React, thereby
+          contributing to the cultivation of emerging talent within the company.
         </WorkItem>
         <WorkItem
           title="Junior Full Stack Dev @ SIX, Zurich"
@@ -51,7 +53,7 @@ export default function Work() {
           capabilities. Working in a dynamic team of over ten developers, I
           deepened my skills in server application development and database
           management, especially with Oracle 12, through dedicated workshops.
-          This role marked my introduction to third-level support, offering
+          This role also marked my introduction to third-level support, offering
           valuable experience in critical system maintenance. Additionally, this
           project piqued my interest in frontend technologies, leading to a
           newfound appreciation and curiosity in this area.

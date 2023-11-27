@@ -1,9 +1,9 @@
 import Template from "./Template.tsx";
 
-export default function AboutMe() {
+export default function AboutMe({ id }: { id: string }) {
   return (
     <>
-      <Template title="ABOUT ME">
+      <Template title="ABOUT ME" id={id}>
         <p>
           With over a decade of experience in both backend and frontend
           development, I've had the opportunity to dive into a multitude of

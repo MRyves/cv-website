@@ -8,12 +8,12 @@ export default function Header() {
       <div className="flex-spacer"></div>
       <SvgLink
         ariaLabel="linkedIn link"
-        href="https://google.ch"
+        href="https://www.linkedin.com/in/yves-hendseth-a6775a140"
         svgData={linkedInImg}
       />
       <SvgLink
         ariaLabel="github link"
-        href="https://google.ch"
+        href="https://github.com/MRyves"
         svgData={githubImg}
       />
       <div className="hidden" aria-label="mail link"></div>

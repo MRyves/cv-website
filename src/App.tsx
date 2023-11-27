@@ -13,7 +13,7 @@ function App() {
     <AppLayout>
       <Header />
       <Intro />
-      <AboutMe />
+      <AboutMe id="aboutMe" />
       <Skills />
       <Work />
       <Projects />
