@@ -56,9 +56,8 @@ export default function Intro() {
         ) : (
           <Typewriter
             onInit={typewriterEffect}
-            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
-            // @ts-ignore
             options={{
+	      // @ts-ignore
               stringSplitter: stringSplitter,
               loop: false,
               devMode: true,
