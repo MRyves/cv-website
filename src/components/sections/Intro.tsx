@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 export default function Intro() {
-  const [introDone, setIntroDone] = useState(false);
+  const [introDone, setIntroDone] = useState(true);
   const stringSplitter = (text: string) => {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(text);
@@ -30,7 +30,7 @@ export default function Intro() {
       .pauseFor(300)
       .pasteString("<br>", null)
       .typeString(
-        '<span class="text-2xl italic text-gray-400"> btw: i\'m also a n3rd 🤓</span>',
+        '<span class="text-sm sm:text-2xl italic text-gray-400"> btw: i\'m also a n3rd 🤓</span>',
       )
       .callFunction(() => {
         setIntroDone(true);
@@ -42,7 +42,7 @@ export default function Intro() {
     <>
       Hello There 👋 <br />
       My name is Yves Hendseth and I am a team player <br />
-      <span className="text-2xl italic text-gray-400">
+      <span className="sm:text-md text-sm italic text-gray-400 md:text-xl lg:text-2xl">
         btw: i'm also a n3rd 🤓
       </span>
     </>
@@ -50,14 +50,14 @@ export default function Intro() {
 
   return (
     <section id="intro" className="flex w-full flex-col justify-center">
-      <div className="mx-auto w-11/12 font-title text-6xl md:text-8xl">
+      <div className="mx-auto w-11/12 font-title text-4xl sm:text-6xl md:text-7xl xl:text-8xl">
         {introDone ? (
           introHtml
         ) : (
           <Typewriter
             onInit={typewriterEffect}
             options={{
-	      // @ts-ignore
+              // @ts-ignore
               stringSplitter: stringSplitter,
               loop: false,
               devMode: true,

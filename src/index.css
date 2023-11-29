@@ -44,6 +44,24 @@
     transition: opacity .3s;
 }
 
+@media (max-width: 1024px) {
+    .scroll-down-wrapper a {
+        padding-top: 70px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        z-index: 2;
+        display: inline-block;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: black;
+        text-decoration: none;
+        transition: opacity .3s;
+        text-align: justify-all;
+        @apply text-sm
+    }
+}
+
 .scroll-down-wrapper a:hover {
     opacity: .5;
 }
