@@ -6,6 +6,7 @@ import rxjsImg from "../../assets/rxjs.svg";
 import apiImg from "../../assets/api.svg";
 import gitImg from "../../assets/git.svg";
 import javaImg from "../../assets/java.svg";
+import javaEEImg from "../../assets/wildfly.svg";
 import javascriptImg from "../../assets/javascript.svg";
 import materialImg from "../../assets/material-ui.svg";
 import pythonImg from "../../assets/python.svg";
@@ -27,7 +28,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="Angular skill button"
               svgData={angularImg}
-              onclick={() => alert("test")}
               caption="Angular"
             />
           </div>
@@ -36,7 +36,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="react skill button"
               svgData={reactImg}
-              onclick={() => alert("test")}
               caption="React"
             />
           </div>
@@ -45,7 +44,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="vuejs skill button"
               svgData={vueImg}
-              onclick={() => alert("test")}
               caption="Vue.js"
             />
           </div>
@@ -54,7 +52,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="rxjs skill button"
               svgData={rxjsImg}
-              onclick={() => alert("test")}
               caption="RxJS"
             />
           </div>
@@ -63,53 +60,55 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="redux skill button"
               svgData={reduxImg}
-              onclick={() => alert("test")}
               caption="Redux"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="javascript skill button"
               svgData={javascriptImg}
-              onclick={() => alert("test")}
               caption="JavaScript"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="typescript skill button"
               svgData={typescriptImg}
-              onclick={() => alert("test")}
               caption="TypeScript"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="tailwindcss skill button"
               svgData={tailwindImg}
-              onclick={() => alert("test")}
               caption="Tailwind"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="material ui skill button"
               svgData={materialImg}
-              onclick={() => alert("test")}
               caption="Material UI"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="java skill button"
               svgData={javaImg}
-              onclick={() => alert("test")}
               caption="Java"
+            />
+          </div>
+          <div className="text-center">
+            <SvgLink
+              className="mx-auto"
+              ariaLabel="java ee skill button"
+              svgData={javaEEImg}
+              caption="Java EE"
             />
           </div>
           <div className="text-center">
@@ -117,7 +116,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="Quarkus skill button"
               svgData={quarkusImg}
-              onclick={() => alert("test")}
               caption="Quarkus"
             />
           </div>
@@ -126,7 +124,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="API skill button"
               svgData={apiImg}
-              onclick={() => alert("test")}
               caption="Rest"
             />
           </div>
@@ -135,7 +132,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="Database skill button"
               svgData={databaseImg}
-              onclick={() => alert("test")}
               caption="Oracle SQL"
             />
           </div>
@@ -144,7 +140,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="Git skill button"
               svgData={gitImg}
-              onclick={() => alert("test")}
               caption="GIT"
             />
           </div>
@@ -153,7 +148,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="scrum skill button"
               svgData={scrumImg}
-              onclick={() => alert("test")}
               caption="SCRUM"
             />
           </div>
@@ -162,7 +156,6 @@ export default function Skills() {
               className="mx-auto"
               ariaLabel="Angular skill button"
               svgData={pythonImg}
-              onclick={() => alert("test")}
               caption="Python"
             />
           </div>
