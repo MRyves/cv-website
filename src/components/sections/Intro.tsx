@@ -60,7 +60,6 @@ export default function Intro() {
               // @ts-ignore
               stringSplitter: stringSplitter,
               loop: false,
-              devMode: true,
             }}
           />
         )}
