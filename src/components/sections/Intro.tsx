@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 export default function Intro() {
-  const [introDone, setIntroDone] = useState(true);
+  const [introDone, setIntroDone] = useState(false);
   const stringSplitter = (text: string) => {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(text);
