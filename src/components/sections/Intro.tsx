@@ -13,10 +13,7 @@ export default function Intro() {
   const typewriterEffect = (tw: TypewriterClass) => {
     tw.changeDelay(50)
       .changeDeleteSpeed(25)
-      .typeString("Hello World")
-      .pauseFor(700)
-      .deleteChars(5)
-      .typeString("There 👋")
+      .typeString("Hello There 👋")
       .pauseFor(100)
       .pasteString("<br>", null)
       .typeString("My name is Yves Hendseth and ")
