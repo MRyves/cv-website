@@ -7,8 +7,30 @@ export default function Work() {
     <Template title="WORK EXPERIENCE">
       <WorkItemList>
         <WorkItem
+          title={"Full Stack Dev @ OpenConcept, Bern"}
+          subtitle={"02.2024 - 09.2024"}
+          tags={["Java/JEE", "JS", "Quarkus", "Lit.js", "SQL"]}
+        >
+          At OpenConcept, I was part of a small team of five working on a web
+          app for ecological accounting. The compact team size required me to
+          take on diverse responsibilities and adapt flexibly to project needs.
+          On the frontend, I developed custom web components using JavaScript
+          and the Lit library, often implementing advanced features such as
+          drag-and-drop functionality and deferred loading to fulfill client
+          requirements. On the backend, I contributed to the REST API using Java
+          and Quarkus, ensuring seamless integration between the frontend and
+          data sources.
+          <br />
+          Our database system was MSSQL, where I was occasionally tasked with
+          analyzing and optimizing SQL queries and devising efficient data
+          collection solutions. Working within a Scrum framework, I collaborated
+          closely with team members to deliver iterative improvements, ensuring
+          alignment with the client’s goals while maintaining high performance
+          and scalability in the application.
+        </WorkItem>
+        <WorkItem
           title={"Software development Tutor @ Superprof"}
-          subtitle={"08.2023 - Today"}
+          subtitle={"08.2023 - 12.2023"}
           tags={["JS/TS", "React", "Teaching"]}
           url={
             "https://de.superprof.ch/individuelle-nachhilfe-programmier-anfanger-und-vortgeschrittene-perfekt-studierende-und-interssierte-lernende.html"
