@@ -5,40 +5,23 @@ export default function AboutMe({ id }: { id: string }) {
     <>
       <Template title="ABOUT ME" id={id}>
         <p>
-          With over a decade of experience in both backend and frontend
-          development, I've had the opportunity to dive into a multitude of
-          programming languages. From the foundational realms of C/C++ to the
-          dynamic world of JavaScript, my journey has been a diverse
-          exploration.
+          With over a decade of experience across the full stack, I have developed a broad technical foundation ranging from low-level C/C++ to modern web architectures. My recent focus has been centered on frontend development, where I have built a deep expertise in JavaScript and TypeScript. I am a firm advocate for the long-term stability and evolution of these languages within the industry.
         </p>
-        <br />
-        <p>
+        {/* <p>
           In my most recent role, I dedicated my focus to frontend development,
           nurturing a profound affinity for JavaScript (and Typescript). I
           strongly advocate for their enduring significance in the evolving
           landscape of development. As evident from current trends, these
           languages are progressively gaining traction in backend applications,
           reinforcing my conviction in their longevity and relevance.
+        </p> */}
+        <br />
+        <p>
+          While I have worked extensively with various frameworks, Angular remains my preferred environment for complex applications. However, I am equally proficient in Vue and have a strong interest in the lightweight, web-component-based approach of Lit.js.
         </p>
         <br />
         <p>
-          Among the myriad frontend frameworks, Angular stands out as my
-          personal favorite. However, I'm also adept in React and Vue, finding
-          their versatility and capabilities equally appealing.
-        </p>
-        <br />
-        <p>
-          In the realm of my future goals and aspirations, I am particularly
-          excited about the expanding potential of JavaScript (and TypeScript)
-          in backend applications. My experience and affinity with these
-          languages fuel my enthusiasm to explore their capabilities beyond
-          conventional frontend usage. I am keen to delve deeper into projects
-          and roles that leverage JavaScript and TypeScript for backend
-          development, embracing the innovative possibilities they offer in
-          creating efficient, scalable, and robust systems. This interest aligns
-          with my broader objective to remain at the forefront of technological
-          evolution, constantly seeking out opportunities to innovate and excel
-          in my field.
+          Beyond frontend architecture, I maintain a strong interest in the growing ecosystem of TypeScript-based backend solutions, recognizing their potential for creating cohesive and maintainable systems. To ensure my workflow remains efficient and aligned with current technological shifts, I actively integrate AI-assisted development tools into my daily practice. I stay updated on the latest LLM capabilities, focusing on practical applications that enhance code quality and accelerate delivery without compromising architectural integrity. My objective is to continue delivering robust, scalable solutions by balancing foundational engineering principles with modern, AI-supported methodologies.
         </p>
       </Template>
     </>

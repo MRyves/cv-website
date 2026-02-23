@@ -1,6 +1,5 @@
 import Template from "./Template.tsx";
 import SvgLink from "../ui/SvgLink.tsx";
-import reactImg from "../../assets/react.svg";
 import angularImg from "../../assets/angular.svg";
 import rxjsImg from "../../assets/rxjs.svg";
 import apiImg from "../../assets/api.svg";
@@ -17,6 +16,7 @@ import vueImg from "../../assets/vue.svg";
 import reduxImg from "../../assets/redux.svg";
 import databaseImg from "../../assets/database.svg";
 import scrumImg from "../../assets/scrum.svg";
+import litImg from "../../assets/lit.svg"
 
 export default function Skills() {
   return (
@@ -34,17 +34,17 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="react skill button"
-              svgData={reactImg}
-              caption="React"
+              ariaLabel="vuejs skill button"
+              svgData={vueImg}
+              caption="Vue.js"
             />
           </div>
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="vuejs skill button"
-              svgData={vueImg}
-              caption="Vue.js"
+              ariaLabel="lit.js skill button"
+              svgData={litImg}
+              caption="Lit.js"
             />
           </div>
           <div className="text-center">
@@ -90,24 +90,8 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="material ui skill button"
-              svgData={materialImg}
-              caption="Material UI"
-            />
-          </div>
-          <div className="text-center">
-            <SvgLink
-              className="mx-auto"
               ariaLabel="java skill button"
               svgData={javaImg}
-              caption="Java"
-            />
-          </div>
-          <div className="text-center">
-            <SvgLink
-              className="mx-auto"
-              ariaLabel="java ee skill button"
-              svgData={javaEEImg}
               caption="Java EE"
             />
           </div>
@@ -154,7 +138,7 @@ export default function Skills() {
           <div className="text-center">
             <SvgLink
               className="mx-auto"
-              ariaLabel="Angular skill button"
+              ariaLabel="Python skill button"
               svgData={pythonImg}
               caption="Python"
             />
